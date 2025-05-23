@@ -31,19 +31,19 @@ ATSBlitz is an AI-powered resume/CV analyzer designed to help job seekers tailor
 
 ## 📂 Project Structure
 
-```bash
-atsblitz/
-├── app/Http/Controllers/     # Laravel Controllers
-├── app/Services/             # Business logic for resume matching
-├── ai/                       # Python scripts for resume processing
-├── resources/views/          # Blade Templates
-├── routes/                   # Web and API Routes
-├── public/                   # Public assets
-├── database/migrations/      # Migration files
-├── .env                      # Environment settings
-├── composer.json             # PHP dependencies
-├── package.json              # JS dependencies
-└── README.md                 # You're here!
+    ```bash
+    atsblitz/
+    ├── app/Http/Controllers/     # Laravel Controllers
+    ├── app/Services/             # Business logic for resume matching
+    ├── ai/                       # Python scripts for resume processing
+    ├── resources/views/          # Blade Templates
+    ├── routes/                   # Web and API Routes
+    ├── public/                   # Public assets
+    ├── database/migrations/      # Migration files
+    ├── .env                      # Environment settings
+    ├── composer.json             # PHP dependencies
+    ├── package.json              # JS dependencies
+    └── README.md                 # You're here!
 
 ## 🔄 Database Migrations
 1. Run the following commands to set up your local database:
