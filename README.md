@@ -2,7 +2,7 @@
 
 [🌐 Live Demo  →  atsblitz.bluenroll.co.za](https://atsblitz.bluenroll.co.za)
 
-ATSBlitz is an AI-powered resume/CV analyzer designed to help job seekers tailor their resumes for applicant tracking systems (ATS). With smart suggestions and personalized feedback, it increases your chances of landing interviews by optimizing your resume structure against job descriptions and industry standards.
+ATSBlitz is an AI-powered resume/CV analyser designed to help job seekers tailor their resumes for applicant tracking systems (ATS). With smart suggestions and personalised feedback, it increases your chances of landing interviews by optimizing your resume structure against job descriptions and industry standards.
 
 ---
 
@@ -51,4 +51,73 @@ ATSBlitz is an AI-powered resume/CV analyzer designed to help job seekers tailor
     ```bash
     php artisan migrate
 
--> Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
+> Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
+
+## 🚀 How to Run Locally
+1. Clone the repo
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/atsblitz.git
+    cd atsblitz
+2. Install dependencies
+
+    ```bash
+    composer install
+    npm install
+
+3. Configure .env
+
+
+
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+
+> Tip: Duplicate .env.example to .env and fill in your database credentials.
+
+4. Migrate the database
+
+    ```bash
+    php artisan migrate
+
+5. Serve the app
+
+    ```bash
+    php artisan serve
+
+> Then visit http://localhost:8000 in your browser.
+
+## 🤖 AI Analysis (Python Scripts)
+- The ai/ directory includes Python scripts responsible for:
+
+- Extracting skills and keywords
+
+- Comparing job positions with resume
+
+- Generating personalized feedback
+
+## 🔐 Security & Privacy
+- Uploaded resumes are not stored permanently, only the logs are.
+
+- Data processing happens locally or securely through APIs.
+
+- No third-party analytics or tracking.
+
+## 📄 License
+This project is open-source under the MIT License. You're free to use, modify, and distribute.
+
+## ❤️ Contributing
+We welcome PRs and issues! You can:
+
+- Improve AI logic or resume suggestions
+
+- Add new job targeting modes (e.g., industry-specific)
+
+- Suggest UI/UX improvements
+
+- Help localise or internationalise
+
+## 👤 Created by
+[@samukelok](https://github.com/samukelok)
+
+Built for developers, job seekers, and hiring professionals.
