@@ -49,5 +49,6 @@ atsblitz/
 1. Run the following commands to set up your local database:
 
  ```bash
- php artisan migrate
- Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
+  php artisan migrate
+
+- Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
