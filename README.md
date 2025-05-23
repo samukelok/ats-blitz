@@ -48,7 +48,7 @@ ATSBlitz is an AI-powered resume/CV analyzer designed to help job seekers tailor
 ## 🔄 Database Migrations
 1. Run the following commands to set up your local database:
 
- ```bash
-  php artisan migrate
+    ```bash
+    php artisan migrate
 
 - Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
