@@ -51,4 +51,4 @@ ATSBlitz is an AI-powered resume/CV analyzer designed to help job seekers tailor
     ```bash
     php artisan migrate
 
-- Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
+-> Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
