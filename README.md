@@ -44,3 +44,10 @@ atsblitz/
 ├── composer.json             # PHP dependencies
 ├── package.json              # JS dependencies
 └── README.md                 # You're here!
+
+## 🔄 Database Migrations
+1. Run the following commands to set up your local database:
+
+```bash
+php artisan migrate
+Migrations handle creation of resume storage tables, analysis results, user sessions, etc.
