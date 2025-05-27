@@ -639,7 +639,7 @@ class ResumeAnalyzer:
     # AI Opinion on the resume
     def _ai_opinion(self, resume_text: str) -> str:
         """AI opinion generation"""
-        client = Groq(api_key="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")
+        client = Groq(api_key="your_api_goes_here")
 
         # AI Conversation Logic
         chat_completion = client.chat.completions.create(
